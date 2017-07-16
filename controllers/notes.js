@@ -1,6 +1,8 @@
 var Note = require("../models/Note");
 var makeDate = require("../scripts/date");
 
+// functionality for notes 
+
 module.exports = {
 	get: function(data, cb) {
 		Note.find({

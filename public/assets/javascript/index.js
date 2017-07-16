@@ -1,3 +1,5 @@
+// js for homepage
+
 $(document).ready(function() {
 
 	var articleContainer = $(".article-container");

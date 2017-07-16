@@ -3,6 +3,8 @@ var makeDate = require("../scripts/date");
 
 var Headline = require("../models/Headline");
 
+// functionality for grabbing headlines
+
 module.exports = {
 	fetch: function(cb) {
 		scrape(function(data) {
